@@ -1,0 +1,32 @@
+{
+  "name": "esas/cmsgate-prestashop-epos",
+  "description": "Prestashop cms payment gate library for EPOS (ERIP Belarus)",
+  "keywords": [
+    "cmsgate",
+    "esas",
+    "epos",
+    "payment gateway",
+    "prestashop",
+    "api"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Esas",
+      "email": "info@esas.com"
+    }
+  ],
+  "config": {
+    "vendor-dir": "src/ps_epos/vendor"
+  },
+  "require": {
+    "php": ">= 5.6.0",
+    "esas/cmsgate-epos-lib": "~v1.12.0",
+    "esas/cmsgate-prestashop-lib": "~v1.12.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src"
+    }
+  }
+}
