@@ -77,7 +77,7 @@ class RegistryEposPrestashop extends RegistryEpos
     {
         return new ModuleDescriptor(
             "ps_epos",
-            new VersionDescriptor("1.13.1", "2020-11-11"),
+            new VersionDescriptor("1.13.2", "2021-02-09"),
             "Прием платежей через ЕРИП (сервис EPOS)",
             "https://bitbucket.esas.by/projects/CG/repos/cmsgate-prestashop-epos/browse",
             VendorDescriptor::esas(),
